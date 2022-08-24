@@ -11,6 +11,9 @@ class TodoList(models.Model):
     user = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
+        related_name='lists',
+        blank=True,
+        null=True
     )
     date_added = models.DateField(auto_now_add=True)
 

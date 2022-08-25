@@ -2,6 +2,10 @@
     height: 100px;
 }
 
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .success {
     color: green;
     transition: all ease-in .5s;
